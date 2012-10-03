@@ -3,5 +3,5 @@ pom.xml
 .DS_Store
 /lib/
 /classes/
-/release/public/cljs
+/resources/public/cljs/
 .lein-deps-sum

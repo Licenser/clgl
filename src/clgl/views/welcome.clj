@@ -6,4 +6,9 @@
 
 (defpage "/welcome" []
   (common/layout
-   [:canvas {:id "canvas" :width "500" :height "500"}]))
+   [:canvas {:id "fighter"} "This demo needs HTML 5 Canvas."]
+   [:canvas {:id "fire"} "---"]
+   [:canvas {:id "units"} "Please install a better browser."]
+   [:canvas {:id "grid" :width 250 :height 250} "---"]
+   [:canvas {:id "selection"} "Firefox or Safari, for example."]
+   [:canvas {:id "osd" :style "display: block"} "Or both."]))

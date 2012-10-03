@@ -7,6 +7,8 @@
              [:head
               [:title "clgl"]
               (include-css "/css/reset.css")
+              (include-css "/css/ds-gui.css")
+              (include-js "/js/draw_engine.js")
               (include-js "/cljs/bootstrap.js")]
               [:body
                [:div#wrapper
